@@ -6,8 +6,8 @@
 import { useEffect, useRef } from "react";
 import { ArrowRight } from "lucide-react";
 
-const ASSESSMENT_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663711345795/U5NbPrg7hSLwhb4ERLGAyh/wellness-hands-ct3DfxbjBcfsJ4VTo8zz8h.webp";
-const TREATMENT_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663711345795/U5NbPrg7hSLwhb4ERLGAyh/exercise-equipment-kFCRjXQSn5XMACHpGXaSRW.webp";
+const ASSESSMENT_IMG = "https://raw.githubusercontent.com/elizabethkiss76/broadlea-physiotherapy/main/client/public/Assessment.png";
+const TREATMENT_IMG = "https://raw.githubusercontent.com/elizabethkiss76/broadlea-physiotherapy/main/client/public/Treatment.png";
 
 const services = [
   {
