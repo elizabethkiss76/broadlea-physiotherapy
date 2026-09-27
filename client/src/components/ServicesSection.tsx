@@ -8,6 +8,7 @@ import { ArrowRight } from "lucide-react";
 
 const ASSESSMENT_IMG = "https://raw.githubusercontent.com/elizabethkiss76/broadlea-physiotherapy/main/client/public/Assessment.png";
 const TREATMENT_IMG = "https://raw.githubusercontent.com/elizabethkiss76/broadlea-physiotherapy/main/client/public/Treatment.png";
+const REHAB_IMG = "https://raw.githubusercontent.com/elizabethkiss76/broadlea-physiotherapy/main/client/public/Rehab.png";
 
 const services = [
   {
@@ -31,7 +32,7 @@ const services = [
     title: "Rehabilitation",
     description:
       "Personalised exercise programmes designed to rebuild strength, improve mobility, and prevent re-injury. Guidance every step of the way.",
-    image: null,
+    image: REHAB_IMG,
     color: "oklch(0.92 0.005 80)",
   },
   {
