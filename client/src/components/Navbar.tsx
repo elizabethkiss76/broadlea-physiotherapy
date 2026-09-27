@@ -7,7 +7,7 @@
 import { useState, useEffect } from "react";
 import { Menu, X, Phone } from "lucide-react";
 
-const LOGO = "https://raw.githubusercontent.com/elizabethkiss76/broadlea-physiotherapy/main/client/public/ChatGPT%20Image%20Jun%203%2C%202026%20at%2008_18_05%20PM.png";
+const LOGO = "https://raw.githubusercontent.com/elizabethkiss76/broadlea-physiotherapy/main/client/public/LogoNowording.png";
 
 const navLinks = [
   { label: "Home", href: "#home" },
