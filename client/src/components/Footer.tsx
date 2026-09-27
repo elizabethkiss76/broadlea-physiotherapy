@@ -5,7 +5,7 @@
  */
 import { Mail, Phone, MapPin, Heart } from "lucide-react";
 
-const LOGO = "https://d2xsxph8kpxj0f.cloudfront.net/310519663711345795/U5NbPrg7hSLwhb4ERLGAyh/broadlea-logo-2yVUeiZr2dC7YCJbDnEhzS.webp";
+const LOGO = "https://raw.githubusercontent.com/elizabethkiss76/broadlea-physiotherapy/main/client/public/ChatGPT%20Image%20Jun%203%2C%202026%20at%2008_18_05%20PM.png";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
