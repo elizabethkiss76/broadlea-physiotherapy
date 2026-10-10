@@ -140,7 +140,7 @@ export default function HeroSection() {
               </div>
 
               {/* Availability badge */}
-              <div className="absolute -top-4 -right-4 bg-[oklch(0.66_0.04_165)] text-white rounded-2xl shadow-xl px-4 py-3">
+              <div className="absolute -top-4 -right-4 bg-[oklch(0.66_0.04_165)] text-white rounded-2xl shadow-xl px-6 py-4">
                 <div className="font-body text-xs font-semibold">Now Accepting</div>
                 <div className="font-display text-sm font-bold">New Patients</div>
               </div>
