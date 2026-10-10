@@ -130,10 +130,10 @@ export default function HeroSection() {
                   <span className="text-xl">✓</span>
                 </div>
                 <div>
-                  <div className="font-display text-sm font-bold text-[oklch(0.22_0.05_240)]">
+                  <div className="font-display text-base font-bold text-[oklch(0.22_0.05_240)]">
                     Chartered
                   </div>
-                  <div className="font-body text-xs text-[oklch(0.52_0.02_240)]">
+                  <div className="font-body text-sm text-[oklch(0.52_0.02_240)]">
                     HCPC Registered
                   </div>
                 </div>
@@ -141,7 +141,7 @@ export default function HeroSection() {
 
               {/* Availability badge */}
               <div className="absolute -top-4 -right-4 bg-[oklch(0.66_0.04_165)] text-white rounded-2xl shadow-xl px-6 py-4">
-                <div className="font-body text-xs font-semibold">Now Accepting</div>
+                <div className="font-body text-base font-semibold">Now Accepting</div>
                 <div className="font-display text-sm font-bold">New Patients</div>
               </div>
             </div>
