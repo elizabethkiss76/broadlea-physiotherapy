@@ -7,7 +7,7 @@
 import { useEffect, useRef } from "react";
 import { ArrowRight, CheckCircle2 } from "lucide-react";
 
-const HERO_IMAGE = "https://d2xsxph8kpxj0f.cloudfront.net/310519663711345795/U5NbPrg7hSLwhb4ERLGAyh/hero-clinic-interior-HnbWpqzi6XewxoQgKohaDB.webp";
+const HERO_IMAGE = "/LOGO.JPG";
 
 const highlights = [
   "Chartered Physiotherapist (HCPC Registered)",
