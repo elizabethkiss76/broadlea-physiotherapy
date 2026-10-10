@@ -9,6 +9,9 @@ import { ArrowRight } from "lucide-react";
 const ASSESSMENT_IMG = "https://raw.githubusercontent.com/elizabethkiss76/broadlea-physiotherapy/main/client/public/Assessment.png";
 const TREATMENT_IMG = "https://raw.githubusercontent.com/elizabethkiss76/broadlea-physiotherapy/main/client/public/Treatment.png";
 const REHAB_IMG = "https://raw.githubusercontent.com/elizabethkiss76/broadlea-physiotherapy/main/client/public/Rehab.png";
+const SPINAL_IMG = "https://raw.githubusercontent.com/elizabethkiss76/broadlea-physiotherapy/main/client/public/Rehab.png";
+const SPORTINJURY_IMG = "https://raw.githubusercontent.com/elizabethkiss76/broadlea-physiotherapy/main/client/public/Rehab.png";
+const POSTOPS_IMG = "https://raw.githubusercontent.com/elizabethkiss76/broadlea-physiotherapy/main/client/public/Rehab.png";
 
 const services = [
   {
@@ -40,7 +43,7 @@ const services = [
     title: "Back & Neck Pain",
     description:
       "Specialist treatment for back pain, neck pain, and related conditions. Evidence-based approaches to get you moving comfortably again.",
-    image: null,
+    image: SPINAL_IMG,
     color: "oklch(0.85 0.01 240)",
   },
   {
@@ -48,7 +51,7 @@ const services = [
     title: "Sports Injuries",
     description:
       "Treatment and rehabilitation for sports-related injuries — from acute sprains to chronic overuse conditions. Return to your sport with confidence.",
-    image: null,
+    image: SPORTINJURY_IMG,
     color: "oklch(0.92 0.005 80)",
   },
   {
@@ -56,7 +59,7 @@ const services = [
     title: "Post-Operative Rehab",
     description:
       "Specialised rehabilitation after surgery to optimise recovery, restore function, and get you back to your normal activities.",
-    image: null,
+    image: POSTOPS_IMG,
     color: "oklch(0.85 0.01 240)",
   },
 ];
