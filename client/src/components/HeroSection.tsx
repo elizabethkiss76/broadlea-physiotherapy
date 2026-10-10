@@ -120,7 +120,7 @@ export default function HeroSection() {
               <img
                 src={HERO_IMAGE}
                 alt="Elizabeth Kiss providing physiotherapy treatment in a peaceful rural clinic"
-                className="w-full h-[500px] lg:h-[600px] object-contain shadow-2xl rounded-2xl"
+                className="w-full h-[500px] lg:h-[600px] object-contain p-8 bg-white shadow-2xl rounded-2xl"
                 loading="eager"
               />
 
