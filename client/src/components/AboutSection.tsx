@@ -48,7 +48,7 @@ export default function AboutSection() {
               alt="Beautiful rural English countryside near Broadlea Physiotherapy clinic"
               className="w-full h-[500px] object-cover rounded-2xl shadow-xl"
             />
-            <div className="absolute -bottom-12 -right-6 bg-white rounded-2xl shadow-xl p-6 max-w-xs">
+            <div className="absolute -bottom-20 -right-6 bg-white rounded-2xl shadow-xl p-6 max-w-xs">
               <p className="font-display text-lg font-bold text-[oklch(0.22_0.05_240)] mb-2">
                 A Peaceful Setting
               </p>
