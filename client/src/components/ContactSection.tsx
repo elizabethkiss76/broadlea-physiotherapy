@@ -78,15 +78,37 @@ export default function ContactSection() {
     setForm((prev) => ({ ...prev, [e.target.name]: e.target.value }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!form.name || !form.email || !form.service) {
-      toast.error("Please fill in all required fields.");
-      return;
+  const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault();
+
+  if (!form.name || !form.email || !form.service) {
+    toast.error("Please fill in all required fields.");
+    return;
+  }
+
+  try {
+    const response = await fetch("/", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/x-www-form-urlencoded",
+      },
+      body: new URLSearchParams({
+        "form-name": "appointment-request",
+        ...form,
+      }).toString(),
+    });
+
+    if (!response.ok) {
+      throw new Error("Submission failed");
     }
+
     setSubmitted(true);
     toast.success("Appointment request sent! I'll be in touch within 24 hours.");
-  };
+  } catch (error) {
+    toast.error("Sorry, your request could not be sent. Please try again or contact me directly.");
+  }
+};
+
 
   return (
     <section
@@ -178,7 +200,7 @@ export default function ContactSection() {
                     Fill in the form and I'll be in touch within 24 hours.
                   </p>
 
-                  <form onSubmit={handleSubmit} className="flex flex-col gap-4">
+                  <form name="appointment-request" data-netlify="true" onSubmit={handleSubmit} className="flex flex-col gap-4">
                     <div className="grid sm:grid-cols-2 gap-4">
                       <div>
                         <label className="font-body text-xs font-semibold text-[oklch(0.35_0.03_240)] uppercase tracking-wider mb-1.5 block">
