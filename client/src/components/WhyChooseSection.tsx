@@ -30,7 +30,7 @@ const reasons = [
   {
     icon: Shield,
     title: "Professional Experience",
-    description: "26 years of clinical experience in NHS MSK outpatient settings.",
+    description: "26 years of clinical experience with NHS MSK outpatient settings.",
   },
   {
     icon: HeartHandshake,
