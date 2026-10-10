@@ -6,7 +6,7 @@
 import { useEffect, useRef } from "react";
 import { CheckCircle2 } from "lucide-react";
 
-const COUNTRYSIDE_IMG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663711345795/U5NbPrg7hSLwhb4ERLGAyh/nature-healing-PWP5rxT6HNu2UBNfyXcXLd.webp";
+const COUNTRYSIDE_IMG = "/TREATMENTROOM.jpeg";
 
 const values = [
   "Personalised, thorough care",
