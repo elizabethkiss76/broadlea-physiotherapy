@@ -56,7 +56,7 @@ const services = [
   },
   {
     id: "06",
-    title: "Pre & Post-Operative Rehab",
+    title: "Pre / Post-Operative Rehab",
     description:
       "Specialised rehabilitation after surgery to optimise recovery, restore function, and get you back to your normal activities.",
     image: POSTOPS_IMG,
