@@ -169,7 +169,7 @@ export default function ServicesSection() {
             onClick={scrollToContact}
             className="btn-primary inline-flex items-center gap-2 text-base px-8 py-3.5 shadow-lg shadow-[oklch(0.22_0.05_240)]/25"
           >
-            Book a Free Consultation
+            Book a Consultation Now
             <ArrowRight size={18} />
           </button>
         </div>
