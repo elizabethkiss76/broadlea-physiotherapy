@@ -6,12 +6,12 @@
 import { useEffect, useRef } from "react";
 import { ArrowRight } from "lucide-react";
 
-const ASSESSMENT_IMG = "https://raw.githubusercontent.com/elizabethkiss76/broadlea-physiotherapy/main/client/public/Assessment.png";
-const TREATMENT_IMG = "https://raw.githubusercontent.com/elizabethkiss76/broadlea-physiotherapy/main/client/public/Treatment.png";
-const REHAB_IMG = "https://raw.githubusercontent.com/elizabethkiss76/broadlea-physiotherapy/main/client/public/Rehab.png";
-const SPINAL_IMG = "https://raw.githubusercontent.com/elizabethkiss76/broadlea-physiotherapy/main/client/public/Rehab.png";
-const SPORTINJURY_IMG = "https://raw.githubusercontent.com/elizabethkiss76/broadlea-physiotherapy/main/client/public/Rehab.png";
-const POSTOPS_IMG = "https://raw.githubusercontent.com/elizabethkiss76/broadlea-physiotherapy/main/client/public/Rehab.png";
+const ASSESSMENT_IMG = "/Assessment.png";
+const TREATMENT_IMG = "/Treatment.png";
+const REHAB_IMG = "/Rehab.png";
+const SPINAL_IMG = "/Back&Neck.png";
+const SPORTINJURY_IMG = "/Sport.png";
+const POSTOPS_IMG = "/PostOps.png";
 
 const services = [
   {
