@@ -70,7 +70,7 @@ export default function TeamSection() {
               Chartered Physiotherapist
             </p>
             <p className="font-body text-base text-[oklch(0.52_0.02_240)] leading-relaxed mb-6">
-              BSc (Hons) Physiotherapy — University of Szeged, Hungary (2000). MSc Advanced Physiotherapy Practice — University of Sheffield (2019). MCSP, HCPC Registered. 26 years of clinical experience in NHS MSK outpatient settings and evidence-based physiotherapy.
+              BSc (Hons) Physiotherapy — University of Szeged, Hungary (2000). MSc Advanced Physiotherapy Practice — University of Sheffield (2019). MCSP, HCPC Registered. 26 years of clinical experience with NHS MSK outpatient settings and evidence-based physiotherapy.
             </p>
             <div className="flex flex-col gap-2 text-sm">
               <div className="flex items-center justify-center gap-2 text-[oklch(0.52_0.02_240)]">
